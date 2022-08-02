@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Skeleton Default 1`] = `
+<div
+  dir="ltr"
+>
+  <h3>
+    Default skeleton
+  </h3>
+  
+
+
+  <div
+    class="fd-skeleton"
+    style="width: 100px; height: 50px"
+  />
+  
+
+
+  <h3>
+    Circle skeleton
+  </h3>
+  
+
+
+  <div
+    class="fd-skeleton fd-skeleton--circle"
+    style="width: 50px; height: 50px"
+  />
+  
+
+
+  <h3>
+    Text skeleton
+  </h3>
+  
+
+
+  <h4>
+    Applied to the empty paragraph element but inherits height from the font-size style property.
+  </h4>
+  
+
+
+  <p
+    class="fd-skeleton fd-skeleton--text"
+  />
+  
+
+
+  <h3>
+    Native skeleton
+  </h3>
+  
+
+
+  <h4>
+    Skeleton created without using of pseudo elements.
+  </h4>
+  
+
+
+  <input
+    class="fd-input"
+    placeholder="Input element cannot have pseudo elements inside of it"
+  />
+  
+
+
+  <br />
+  
+
+
+  <input
+    class="fd-input fd-skeleton fd-skeleton--native"
+    tabindex="-1"
+  />
+  
+
+
+  <h3>
+    Wrapper skeleton
+  </h3>
+  
+
+
+  <h4>
+    Skeleton takes the same size & shape as the element.
+  </h4>
+  
+
+
+  <button
+    class="fd-button fd-button--primary"
+  >
+    Button
+  </button>
+  
+
+
+  <button
+    class="fd-button fd-button--primary fd-skeleton"
+    tabindex="-1"
+  >
+    Button
+  </button>
+  
+
+
+  <p
+    class="fd-text"
+  >
+    Some text...
+  </p>
+  
+
+
+  <p
+    class="fd-text fd-skeleton"
+  >
+    Some text...
+  </p>
+  
+
+
+  <h3>
+    Animated skeleton
+  </h3>
+  
+
+
+  <div
+    class="fd-skeleton fd-skeleton--animated"
+    style="width: 100px; height: 50px"
+  />
+  
+
+
+  <br />
+  
+
+
+  <div
+    class="fd-skeleton fd-skeleton--circle fd-skeleton--animated"
+    style="width: 50px; height: 50px"
+  />
+  
+
+
+  <br />
+  
+
+
+  <p
+    class="fd-skeleton fd-skeleton--text fd-skeleton--animated"
+  />
+  
+
+
+</div>
+`;
